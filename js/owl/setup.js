@@ -1,8 +1,11 @@
 $('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:false,
-  responsive:{
+    items:1, 
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    nav:false,
+    responsive:{
       0:{
           items:1
       },
@@ -12,5 +15,5 @@ $('.owl-carousel').owlCarousel({
       1000:{
           items:5
       }
-  }
+    }
 })
